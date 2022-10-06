@@ -1,0 +1,124 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  font-family: cursive;
+  color: #fff;
+  background: #a2d2ff;
+  /* padding: 10px; */
+}
+
+.junior {
+  text-shadow: 0px 0px 2px black;
+}
+
+/* header-section */
+.Hero {
+  text-shadow: 0px 0px 2px black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* celebrant's-img */
+#bb-img {
+  width: 150px;
+  border-radius: 50%;
+  border: 6px solid #efb0c9;
+  margin-top: 10px;
+  height: 150px;
+}
+
+.gift-card {
+  margin-top: 50px;
+}
+
+.gift-hint {
+  margin-bottom: 10px;
+}
+
+/* birth-age */
+#bday-age {
+  background: #efb0c9;
+  margin: 10px 0 10px 0;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+/* birth-date */
+#bday-date {
+  background: #efb0c9;
+  margin-bottom: 10px;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+/* gift-img */
+.gift-img {
+  width: 400px;
+  height: 400px;
+  margin: 0px auto;
+  border: 6px solid white;
+  border-radius: 10px;
+  background-image: url("./images/bday-wrap.jpg");
+  background-size: cover;
+}
+
+/* img-happy */
+#gift-img-happy:hover {
+  background-image: url("./images/happy-.gif");
+  width: 400px;
+  height: 400px;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+/* img-hot */
+#gift-img-hot:hover {
+  background-image: url("./images/hot-img.gif");
+  width: 400px;
+  height: 400px;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+/* img-comedian */
+#gift-img-comedian:hover {
+  background-image: url("./images/bday-img.gif");
+  width: 400px;
+  height: 400px;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+/* img-good */
+#gift-img-funny:hover {
+  background-image: url("./images/badass.webp");
+  background-size: 100% 100%;
+  width: 400px;
+  height: 400px;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+/* cheers-gift */
+#gift-img-cheers {
+  height: 200px;
+  margin-bottom: 50px;
+}
+
+#gift-img-cheers:hover {
+  background-image: url("./images/cheers.jpeg");
+  background-size: 100% 100%;
+  width: 400px;
+  height: 200px;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
